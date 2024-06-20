@@ -2,5 +2,4 @@
 n = str(input(""))
 m = int(input(""))
 
-for _ in range(m):
-    print(n)
+print(n * m)
