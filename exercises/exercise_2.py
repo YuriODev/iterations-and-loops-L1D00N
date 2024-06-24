@@ -1,6 +1,8 @@
-a = int(input(""))
-b = a - 20
-if a >= 20:
-    while b >= 0:
-        print(a - b, end=" ")
-        b -= 1
+
+n = int(input())
+
+m = int(input())
+for i in range(m):
+    print(n, end=" ")
+
+print()
