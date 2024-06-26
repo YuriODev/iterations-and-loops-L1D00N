@@ -1,7 +1,5 @@
-# Your solution to Exercise 4
-
 a = int(input(""))
-
-while a > 0:
-    print(a, a * "#")
-    a -= 1
+b = 1
+while b <= a:
+    print(b, b * "#")
+    b += 1
